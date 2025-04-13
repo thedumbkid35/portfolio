@@ -1,0 +1,38 @@
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    animation: fadeSlideOut 1s ease;
+}
+
+.contact{
+    padding: 50px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.contact:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@keyframes fadeSlideOut {
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px){
+    .contacts{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}

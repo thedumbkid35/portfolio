@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap');
+.Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 60px;
+}
+
+.Project1{
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    max-width: 550px;
+    padding: 20px;
+    transition: all 1s ease;
+    max-height: 350px;
+    animation: fadeSlideIn 0.7s ease;
+}
+
+p{
+    opacity: 0;
+}
+
+.Project1:hover p{
+    opacity: 1;
+}
+
+.Project1:hover{
+    transform: scale(1.03);
+    max-height: fit-content;
+}
+
+body{
+    font-family: 'DM Sans';
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+@keyframes fadeSlideIn {
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px){
+    img{
+        size: 50px;
+    }
+}

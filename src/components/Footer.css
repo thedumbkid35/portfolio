@@ -1,0 +1,25 @@
+/* Footer.css */
+.footer {
+    background-color: #282c34; /* Dark background */
+    color: white; /* White text color for visibility */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif; /* Ensuring the font is clean */
+  }
+  
+  .footer .copyright {
+    font-size: 16px; /* Slightly larger font size */
+    color: #fff; /* White color for text */
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+  
+  .footer .copyright:hover {
+    color: #ffa500; /* Adding a hover color for effect */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  

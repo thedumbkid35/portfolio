@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap');
+
+.container{
+        width: 40%;
+        max-width: 500px;
+        padding: 2rem;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 100px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    animation: fadeSlideIn 1s ease;
+}
+
+
+
+
+@keyframes fadeSlideIn {
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes fadeSlideOut {
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2B2B2B;
+    text-align: center;
+    margin-right: 80px;
+    animation: fadeSlideIn 1s ease;
+
+}
+
+h3{
+    font-size: 2rem;
+    color: #2B2B2B;
+    text-align: center;
+    margin-right: 80px;
+    animation: fadeSlideOut 1s ease;
+}
+
+body{
+    
+    scroll-behavior: auto;
+}
+
+.image img{
+    margin-right: -40px;
+    position: static;
+    float: right;
+    animation: fadeSlideIn 1s ease;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+}
+
+.image{
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.03);
+    visibility: visible;
+}
+
+
+
+.home-wrapper{
+    padding: 2rem;
+    position: relative;
+}
+
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.hero{
+    flex: 1;
+    text-align: left;
+}
+
+body{
+    font-family: 'DM Sans';
+
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+#about h1{
+    text-align: left;
+}
+
+.Note{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    transition: all 0.5s ease;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    opacity: 0;
+    right: 70%;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.image:hover .Note{
+    
+    font-weight: 600;
+    transform: scale(1.1);
+    transform: rotate(-10deg);
+    right: 70%;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+    }
+  
+    .container {
+      width: 90%;
+      margin-bottom: 50px;
+      padding: 1.5rem;
+    }
+  
+    h1, h3 {
+      font-size: 2rem;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .image img {
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .Note {
+      right: 90%;
+      margin-right: 130px;
+      font-size: 0.9rem;
+      padding: 30px;
+      bottom: 95%;
+    }
+  
+    .image:hover .Note {
+      right: 10%;
+    }
+  }
+  
