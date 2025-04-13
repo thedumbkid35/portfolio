@@ -14,9 +14,11 @@ function Navbar(){
             <div className="hamburger" onClick={toggleMenu}>☰</div>
             <ul className="nav-links">
                 <li className="logo"><NavLink to = '/'>Home</NavLink></li>
-                <li><NavLink to = '/Contact'>Contact</NavLink></li>
-                <li ><NavLink to = '/About'>About</NavLink></li>
                 <li><NavLink to = '/Projects'>Projects</NavLink></li>
+                  <li ><NavLink to = '/About'>About</NavLink></li>
+                <li><NavLink to = '/Contact'>Contact</NavLink></li>
+              
+                
             </ul>
         </div>
     );
