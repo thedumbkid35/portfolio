@@ -15,6 +15,10 @@ function About() {
 </p>
 
 <p>
+  I've also built a decentralized application (DApp) on the <strong>ICP (Internet Computer Protocol)</strong> blockchain, which has given me a solid starting point in the world of <strong>Web3</strong> development.
+</p>
+
+<p>
   My toolkit includes the fundamentals of <strong>RESTful APIs</strong> and version control with <strong>Git</strong>. I'm beginning to explore areas like <strong>Web3</strong> and will be diving into <strong>DevOps</strong> this May to broaden my understanding of deployment and infrastructure.
 </p>
 
