@@ -159,6 +159,7 @@ html{
       float: none;
       margin: 0 auto;
       display: block;
+      visibility: hidden;
     }
   
     .Note {

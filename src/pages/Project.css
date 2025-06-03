@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap');
 .Projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 70vh;
     margin-top: 60px;
@@ -14,6 +14,24 @@
     transition: all 1s ease;
     max-height: 350px;
     animation: fadeSlideIn 0.7s ease;
+}
+
+.Project2{
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    max-width: 550px;
+    padding: 20px;
+    transition: all 1s ease;
+    max-height: 350px;
+    animation: fadeSlideIn 0.7s ease;
+}
+
+.Project2:hover p{
+    opacity: 1;
+}
+
+.Project2:hover{
+    transform: scale(1.03);
+    max-height: fit-content;
 }
 
 p{
