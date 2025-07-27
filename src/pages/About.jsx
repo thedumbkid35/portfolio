@@ -7,32 +7,27 @@ function About() {
       <h1>About Me</h1>
 
       <p>
-        Hey there! I'm <strong>Suvan Balasubramaniam</strong>, a passionate <strong>Full Stack Engineer</strong> currently in my 3rd year of study. What began as a spark of curiosity has grown into a deep passion for building clean, scalable, and impactful web applications.
+        Hi, I'm <strong>Suvan Balasubramaniam</strong>, a dedicated <strong>Full Stack Developer</strong> and <strong>Machine Learning enthusiast</strong> currently in my 3rd year of engineering. I specialize in building robust web applications with a focus on real-world functionality, clean architecture, and scalable systems.
       </p>
 
       <p>
-        I've built and deployed several full-stack projects, including:
-        <ul>
-          <li><strong>MedBOT</strong> – a health assistant app with BMI calculators, recipe suggestions, and home remedies.</li>
-          <li><strong>HashIt</strong> – a social media platform for posting, liking, commenting, and hashtagging images.</li>
-          <li><strong>Prodigy_FS_02</strong> – an admin-only employee management system built during my internship at Prodigy Infotech.</li>
-        </ul>
+        I’m skilled in the <strong>MERN stack</strong> and proficient with <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, and <strong>Sequelize</strong>. I’ve also integrated <strong>Machine Learning models</strong> using <strong>Python</strong> and <strong>scikit-learn</strong> into full-stack apps — bridging ML with web tech.
       </p>
 
       <p>
-        I primarily work with <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, and databases like <strong>MongoDB</strong>, <strong>MySQL</strong>, and <strong>PostgreSQL</strong>. I'm also proficient in <strong>Python</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, and <strong>JavaScript</strong>, and have experience building games and interactive UIs using <strong>pyGame</strong>.
+        My toolkit includes <strong>RESTful APIs</strong>, <strong>Express.js</strong>, <strong>EJS</strong>, <strong>Render</strong>, <strong>Vercel</strong>, and tools like <strong>Passport.js</strong>, <strong>Cloudinary</strong>, and <strong>express-validator</strong>. I'm comfortable working across the full stack — from backend logic and database design to dynamic frontend interfaces.
       </p>
 
       <p>
-        My technical toolkit includes <strong>RESTful APIs</strong>, <strong>Git</strong>, <strong>Postman</strong>, and <strong>Cloud Hosting</strong> services like <strong>Render</strong>, <strong>Vercel</strong>, and <strong>Netlify</strong>. I’ve worked with tools and libraries like <strong>Passport.js</strong>, <strong>bcrypt</strong>, <strong>express-validator</strong>, <strong>Cloudinary</strong>, <strong>multer</strong>, and more. I always aim to write clean, modular code and deliver intuitive, user-friendly experiences.
+        I'm also confident in <strong>C++</strong>, <strong>Java</strong>, and <strong>Python</strong> for problem-solving and system-level programming, and have hands-on experience with tools like <strong>Postman</strong>, <strong>Git</strong>, and <strong>Docker</strong>.
       </p>
 
       <p>
-        Outside of coding, you'll find me strumming a guitar, playing keyboard, singing, or enjoying a game of badminton or table tennis. I’m also a huge movie buff — especially when there’s a good plot twist!
+        Beyond tech, I’m a passionate musician and enjoy playing guitar, keyboard, and singing. I love solving problems, both in code and on a badminton court — and I’m always down for a movie with a plot twist.
       </p>
 
       <p>
-        I’m currently open to <strong>internship opportunities</strong> where I can grow professionally and collaborate with amazing teams on real-world challenges.
+        I’m actively seeking <strong>internships</strong> where I can apply my skills, collaborate with forward-thinking teams, and keep learning by building real-world software.
       </p>
     </div>
   );
