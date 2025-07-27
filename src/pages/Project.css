@@ -9,19 +9,37 @@
 
 .Project1{
     box-shadow: 0 15px 30px rgb(0,0,0,0.2);
-    max-width: 550px;
+    max-width: 260px;
     padding: 20px;
     transition: all 1s ease;
-    max-height: 350px;
+    max-height: 200px;
     animation: fadeSlideIn 0.7s ease;
 }
 
 .Project2{
     box-shadow: 0 15px 30px rgb(0,0,0,0.2);
-    max-width: 550px;
+    max-width: 260px;
     padding: 20px;
     transition: all 1s ease;
-    max-height: 350px;
+    max-height: 200px;
+    animation: fadeSlideIn 0.7s ease;
+}
+
+.Project3{
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    max-width: 260px;
+    padding: 20px;
+    transition: all 1s ease;
+    max-height: 200px;
+    animation: fadeSlideIn 0.7s ease;
+}
+
+.Project4{
+    box-shadow: 0 15px 30px rgb(0,0,0,0.2);
+    max-width: 260px;
+    padding: 20px;
+    transition: all 1s ease;
+    max-height: 200px;
     animation: fadeSlideIn 0.7s ease;
 }
 
@@ -43,6 +61,24 @@ p{
 }
 
 .Project1:hover{
+    transform: scale(1.03);
+    max-height: fit-content;
+}
+
+.Project3:hover p{
+    opacity: 1;
+}
+
+.Project3:hover{
+    transform: scale(1.03);
+    max-height: fit-content;
+}
+
+.Project4:hover p{
+    opacity: 1;
+}
+
+.Project4:hover{
     transform: scale(1.03);
     max-height: fit-content;
 }
@@ -71,12 +107,16 @@ a{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1300px){
     img{
         size: 50px;
     }
 
     .Projects{
         flex-direction: column;
+    }
+
+    .Projects a{
+        margin-bottom: 20px;
     }
 }
