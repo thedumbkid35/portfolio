@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #0F172A;
     position: sticky;
     flex-wrap: wrap;
+    
 }
 
 .nav-links{
@@ -21,12 +22,12 @@
     transition: all 0.3s ease;
     border-radius: 20px;
     text-decoration: none;
-    color: #242424;
+    color: #94A3B8;
 }
 
 .nav-links a:hover {
-    background-color: #242424;
-    color: #d4d4d4;
+    background-color: #94A3B8;
+    color: #242424;
     transform: scale(1.1);
 }
 

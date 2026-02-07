@@ -11,6 +11,7 @@
     box-shadow: 0 15px 30px rgb(0,0,0,0.2);
     border-radius: 25px;
     transition: all 0.3s ease;
+    background-color: #94A3B8;
 }
 
 .contact:hover{
